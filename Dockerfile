@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
 # Copy published application files
-COPY ./publish/ ./
+COPY . .
 
 # Application port
 EXPOSE 8080
