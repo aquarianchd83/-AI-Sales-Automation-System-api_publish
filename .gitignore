@@ -428,3 +428,4 @@ FodyWeavers.xsd
 #*.lscache
 
 web.config
+web.config~*
